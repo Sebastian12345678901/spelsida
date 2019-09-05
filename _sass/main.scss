@@ -1,3 +1,24 @@
-.current {
-  color: green;
+body {
+  background: url("../assets/images/bluePacmanBackground.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: yellow;
+  font-family: pageFont;
+}
+
+hr {
+  border-color: yellow;
+}
+
+@font-face {
+  font-family: menuFont;
+  src: url("../assets/arcade/ARCADE.TTF");
+}
+
+@font-face {
+  font-family: pageFont;
+  src: url("../assets/invasion2000/INVASION2000.TTF");
 }
