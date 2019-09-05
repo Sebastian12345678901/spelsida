@@ -1,0 +1,24 @@
+---
+layout: default
+title: HighScore
+---
+
+<h1>High Scores</h1>
+
+<div>
+  {% assign placement = 0%} {% assign sorted = (site.data.playerScore | sort:
+  "score" | reverse )%} {% for player in sorted %}
+  <hr />
+
+  {% assign placement = placement | plus:1 %}
+
+  <p>placement: {{ placement }}</p>
+  <p>Name: {{ player.name }}</p>
+  <p>
+    Score:
+    {{ player.score }}
+  </p>
+
+  <p>Date: {{ player.date }}</p>
+  {% endfor %}
+</div>

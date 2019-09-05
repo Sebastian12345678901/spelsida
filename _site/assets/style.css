@@ -1,3 +1,23 @@
-.current { color: green; }
+body { background: url("../assets/images/bluePacmanBackground.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; color: yellow; font-family: pageFont; }
+
+hr { border-color: yellow; }
+
+@font-face { font-family: menuFont; src: url("../assets/arcade/ARCADE.TTF"); }
+
+@font-face { font-family: pageFont; src: url("../assets/invasion2000/INVASION2000.TTF"); }
+
+.center-element { display: block; margin: 0% auto; }
+
+.float-div-left { float: left; width: 50%; }
+
+.float-div-right { float: right; width: 50%; }
+
+.menu { font-family: menuFont; width: 80%; height: 12vh; margin: 5% 10%; display: inline-grid; grid-template-columns: auto auto auto auto; list-style-type: none; border-style: solid; }
+
+.menu a { border-width: 3px 0px 7px 0px; opacity: 0.5; background-color: #062340; text-align: center; vertical-align: middle; line-height: 12vh; text-decoration: none; font-size: 300%; color: yellow; }
+
+.menu a:hover { background-color: blue; opacity: 1; }
+
+#current { color: red; }
 
 /*# sourceMappingURL=style.css.map */
