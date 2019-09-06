@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: /Home/
 - name: About
-  link: /about.html
+  link: /About/
 - name: High Score
-  link: /highScore.html
-- name: Staff
-  link: /staff.html
+  link: /HighScore/
+- name: Play
+  link: /GameOn/
