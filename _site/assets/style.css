@@ -2,11 +2,13 @@ body { background: url("../assets/images/bluePacmanBackground.jpg") no-repeat ce
 
 hr { border-color: yellow; }
 
+a { border-width: 3px 0px 7px 0px; opacity: 0.5; background-color: #062340; text-align: center; vertical-align: middle; line-height: 12vh; text-decoration: none; font-size: 300%; color: yellow; }
+
 @font-face { font-family: menuFont; src: url("../assets/arcade/ARCADE.TTF"); }
 
 @font-face { font-family: pageFont; src: url("../assets/invasion2000/INVASION2000.TTF"); }
 
-canvas { display: block; width: 600px; height: 600px; background-color: darkblue; margin: 0 auto; border-style: solid; border-color: yellow; border-width: 5px; }
+canvas { display: block; width: 600px; height: 600px; background-color: black; margin: 0 auto; border-style: solid; border-color: yellow; border-width: 5px; }
 
 .center-element { display: block; margin: 0% auto; }
 
@@ -15,8 +17,6 @@ canvas { display: block; width: 600px; height: 600px; background-color: darkblue
 .float-div-right { float: right; width: 50%; }
 
 .menu { font-family: menuFont; width: 80%; height: 12vh; margin: 5% 10%; display: inline-grid; grid-template-columns: auto auto auto auto; list-style-type: none; border-style: solid; }
-
-.menu a { border-width: 3px 0px 7px 0px; opacity: 0.5; background-color: #062340; text-align: center; vertical-align: middle; line-height: 12vh; text-decoration: none; font-size: 300%; color: yellow; }
 
 .menu a:hover { background-color: blue; opacity: 1; }
 
