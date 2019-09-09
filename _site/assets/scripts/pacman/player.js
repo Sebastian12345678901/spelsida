@@ -1,18 +1,19 @@
 let player = {
   playerX: 275,
   playerY: 425,
+  playerSpeed: 10,
 
-  moveUp: function(movingUp) {
-    player.playerY -= 5;
+  moveUp: function() {
+    player.playerY -= player.playerSpeed;
   },
-  moveDown: function(movingDown) {
-    player.playerY += 5;
+  moveDown: function() {
+    player.playerY += player.playerSpeed;
   },
-  moveRight: function(movingRight) {
-    player.playerX += 5;
+  moveRight: function() {
+    player.playerX += player.playerSpeed;
   },
-  moveLeft: function(movingLeft) {
-    player.playerX -= 5;
+  moveLeft: function() {
+    player.playerX -= player.playerSpeed;
   },
 
   drawPlayer: function(ctx) {
