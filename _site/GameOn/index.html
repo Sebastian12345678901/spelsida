@@ -39,12 +39,25 @@
     
 </nav>
 
-    <h1>Game</h1>
+    <a id="linkToGame" href="#pacman">waspa</a>
+
+<div id="scoreboard">
+  <p>score: 0</p>
+  <p>timeBonus: 120</p>
+</div>
+
+<div id="win"></div>
+
+<div id="lose"></div>
 
 <canvas id="pacman" width="550" height="550"> </canvas>
-
-<script src="/assets/scripts/pacman/monsterPointsPhysics/dotsClass.js"></script>
-<script src="/assets/scripts/pacman/monsterPointsPhysics/dots.js"></script>
+<script src="/assets/scripts/pacman/timeBonus.js"></script>
+<script src="/assets/scripts/messages/messages.js"></script>
+<script src="/assets/scripts/pacman/ghosts/ghostAi.js"></script>
+<script src="/assets/scripts/pacman/ghosts/ghostClass.js"></script>
+<script src="/assets/scripts/pacman/ghosts/createGhosts.js"></script>
+<script src="/assets/scripts/pacman/dots/dotsClass.js"></script>
+<script src="/assets/scripts/pacman/dots/dots.js"></script>
 <script src="/assets/scripts/pacman/map/squareClass.js"></script>
 <script src="/assets/scripts/pacman/map/map.js"></script>
 <script src="/assets/scripts/pacman/controlls.js"></script>
