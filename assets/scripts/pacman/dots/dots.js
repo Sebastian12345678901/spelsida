@@ -1,4 +1,5 @@
 let dots = {
+  score: 0,
   allDots: [],
 
   fillAllDots: () => {
@@ -128,6 +129,7 @@ let dots = {
           player.playerY < currentDot.y + 25
         ) {
           dots.allDots[i] = null;
+          dots.score += 10;
         }
       }
     }
